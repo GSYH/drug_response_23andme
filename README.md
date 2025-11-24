@@ -6,6 +6,8 @@
 
 **Drug Response 23andMe** is a Python package for annotating 23andMe raw genotype data with drug response information from the PharmGKB database. It automates the parsing of genotype files, integrates variant annotations, and identifies significant efficacy variants relevant to the user.
 
+**Website:** [https://GSYH.github.io/drug_response_23andme/](https://GSYH.github.io/drug_response_23andme/)
+
 > [!NOTE]
 > **Scope & Limitations:**
 >
