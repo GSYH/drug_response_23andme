@@ -62,4 +62,4 @@ This package relies on data from the following sources:
 
 ## Acknowledgements
 
-Special thanks to **Professor Mitrea** for guidance and support in the development of this project for the BIOINF575 class.
+Special thanks to **Professor Cristina Mitrea** for guidance and support in the development of this project for the BIOINF575 Programming Laboratory in Bioinformatics course.
