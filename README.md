@@ -1,6 +1,10 @@
 # Drug Response 23andMe
 
+[![Documentation](https://img.shields.io/badge/docs-live-blue)](https://GSYH.github.io/drug_response_23andme/)
+
 A Python package to annotate 23andMe raw data with PharmGKB drug response information.
+
+**[📚 Read the Documentation](https://GSYH.github.io/drug_response_23andme/)**
 
 ## Overview
 
