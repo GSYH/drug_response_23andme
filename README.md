@@ -48,11 +48,18 @@ print(summary_df.head())
 visualizer.plot_stats(filtered_df, output_prefix="my_analysis")
 ```
 
-## Data Sources
+## Data Sources & Credits
 
-*   **23andMe**: Your raw genotype data (txt file).
-*   **PharmGKB**: Variant annotations (`var_drug_ann.tsv`) available from [PharmGKB](https://www.pharmgkb.org/).
+This package relies on data from the following sources:
 
-## License
+*   **23andMe Data**: Raw genotype data from 23andMe.
+    *   *Note*: If you need to convert 23andMe data to VCF, you might find [23andme2vcf](https://github.com/arrogantrobot/23andme2vcf) useful.
+    *   **File Format**: The expected input is a tab-separated text file with columns: `CHR`, `POS`, `dbSNP_ID`, `ALLELE`.
+*   **PharmGKB Data**: Variant annotations from the [PharmGKB Downloads page](https://www.pharmgkb.org/downloads).
+    *   Specifically, the `var_drug_ann.tsv` file found within the `variantAnnotations.zip` archive.
+    *   **File Format**: A tab-separated file containing columns such as `Variant/Haplotypes`, `Gene`, `Drug(s)`, `PMID`, `Phenotype Category`, `Significance`, `Notes`, `Sentence`, and `Alleles`.
+    *   *Note*: The loader handles a known formatting issue in some versions of this file (an unclosed quote on a specific line).
 
-This project is licensed under the MIT License.
+## Acknowledgements
+
+Special thanks to **Professor Mitrea** for guidance and support in the development of this project for the BIOINF575 class.
